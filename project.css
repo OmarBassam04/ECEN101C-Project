@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    /* background-image: url('circuit-background.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    color: #333;
+  }
+  
+  p, center {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .car, .speed-limit, .lanes {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .car, .speed-limit, .lanes {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .car, .speed-limit, .lanes {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  .circuit-background {
+    background-image: url('circuit-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .container, .result {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .video-container {
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  label, input {
+    flex: 1 1 50%;
+    margin: 5px;
+  }
+  
+  .video-container {
+    flex: 1 1 100%;
+    text-align: right;
+  }
+
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+ 
+  
+  .car, .lanes, .speed-limit {
+    margin: 5px;
+  }
+  
+  form {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+ 
+  
+  .video-container {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    text-align: center;
+  }
+
+
+

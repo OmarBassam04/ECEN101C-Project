@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ohm's Law for Kids</title>
+    <link rel="stylesheet" href="project.css">
+  </head>
+  <body>
+    <h1>Ohm's Law!</h1>
+    <p> <center> Imagine a highway as an electrical circuit. The number of cars traveling on the highway represents the current, the speed limit of vehicles represents the voltage, and the number of lanes on the road represents the resistance. Let's explore this analogy further!</center></p>
+    <br><br><br>
+    
+      <div class="video-container">
+        <iframe width="700" height="700" src="videos/video6001569647667711499.mp4" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+    
+    <br><br>
+    <div class="container">
+      <div class="car">Current: <span id="current">0</span></div>
+      <div class="lanes">Resistance: <span id="resistance">0</span></div>
+      <div class="speed-limit">Voltage: <span id="voltage">0</span></div>
+    </div>
+
+    <form>
+      <label for="cars">Number of cars:</label>
+      <input type="number" id="cars" name="cars" min="0" max="100" step="1">
+      <!-- <label for="speed-limit">Speed limit:</label>
+      <input type="number" id="speed-limit" name="speed-limit" min="0" max="100" step="1"> -->
+      <label for="lanes">Number of lanes:</label>
+      <input type="number" id="lanes" name="lanes" min="1" max="10" step="1">
+      <br>
+      <button type="button" onclick="calculate()">Calculate</button>
+      <p> Hence, the average speed limit is <span id="speed-limit">0</span> kph.</p>
+
+    </form>
+    <div class="result">
+      <p>The current is <span id="result-current">0</span> Amperes (cars).</p>
+      <p>The resistance is <span id="result-resistance">0</span> Ohms (lanes).</p>
+      <p>The voltage is <span id="result-voltage">0</span> Volts (speed).</p>
+
+      <br>
+      <p>With Ohm's Law calculation : Voltage (V) = Current (I) x Resistance (R) <br>
+        = <span id="ohm-current">0</span> x <span id="ohm-resistance">0</span> = <span id="ohm-voltage">0</span> volts.</p>
+    </div>
+
+
+
+  <br><br>
+  <p> <center>...What next? <br> 
+  Do you know what happens to the speed of cars when the highway becomes wider? Besides, what happens if the number of lanes increase? watch the video below to understand how is this related to the series and parallel connections in circuits.
+</center></p>
+  <br><br>
+
+  <div class="video-container">
+    <iframe width="700" height="700" src="videos/Series and Parallel Circuits _ Road and Car Analogy.mp4" frameborder="0" allowfullscreen=""></iframe>
+  </div>  
+
+  <br><br>
+  <p>
+    <center>Is it clear now? We hope you enjoyed watching and got the concepts well.<br>
+    Now, Do you love cars games? Let's do some fun! <br>
+   Press on the button below "play" to enjoy an amazing game with cars. Good Luck!</center> </p>
+   
+   <div style="text-align: center;">
+    <button>
+      <a href="project.html"> play </a>
+    </button>
+  </div>
+
+   <!-- <button type="button" onclick="play()" style="float: right;">Play</button> -->
+
+   <script src="project.js"></script>
+   <script src="play.js"></script>
+
+  </body>
+</html>

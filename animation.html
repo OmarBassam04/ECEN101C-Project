@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Highway Animation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Highway Animation</h1>
+      <form>
+        <label for="cars">Number of Cars:</label>
+        <input type="number" id="cars" name="cars" value="10">
+        <br>
+        <label for="speed-limit">Speed Limit:</label>
+        <input type="number" id="speed-limit" name="speed-limit" value="60">
+        <br>
+        <label for="lanes">Number of Lanes:</label>
+        <input type="number" id="lanes" name="lanes" value="3">
+        <br>
+        <button type="button" onclick="startAnimation()">Calculate</button>
+      </form>
+      <div id="highway"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
